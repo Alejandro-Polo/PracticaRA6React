@@ -13,7 +13,7 @@ import { getArticulos } from "../services/api";
 export default function ListaArticulos() {
   /**
    * Estado que almacena la lista de artículos.
-   * @type {{Object[]}}
+   * @type {Object[]}
    */
   const [articulos, setArticulos] = useState([]);
   
