@@ -13,13 +13,13 @@ import { getArticulos } from "../services/api";
 export default function ListaArticulos() {
   /**
    * Estado que almacena la lista de artículos.
-   * @type {[Array<Object>, Function]}
+   * @type {{Object[]}}
    */
   const [articulos, setArticulos] = useState([]);
   
   /**
    * Estado que almacena el mensaje de error.
-   * @type {[string|null, Function]}
+   * @type {(string|null)}
    */
   const [error, setError] = useState(null);
 
